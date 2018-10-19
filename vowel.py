@@ -1,13 +1,17 @@
+"""
+Author: Yosiyoshi
+"""
 txt="Dit is een boek."
-h=[0,0,0,0,0,0]
+h=[0,0,0,0,0,0,0]
 h[0]=txt.count("oo")
 h[1]=txt.count("y")
 h[2]=txt.count("oe")
 h[3]=txt.count("u")
 h[4]=txt.count("ie")
 h[5]=txt.count("ee")
+h[6]=txt.count("ou")
 print("txt:", txt)
-print("oo:y:oe:u:ie existing in the text:", h)
+print("oo:y:oe:u:ie:ee:ou existing in the text:", h)
 if max(h)==h[0]:
     print("English?")
 if max(h)==h[1]:
@@ -20,3 +24,5 @@ if max(h)==h[4]:
     print("French or German?")
 if max(h)==h[5]:
     print("Dutch?")
+if max(h)==h[6]:
+    print("French?")
