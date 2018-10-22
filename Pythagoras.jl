@@ -2,7 +2,7 @@
 Author: Yoshiyosi
 """
 function pythag(a,b)
-    return return √(a**2+b**2)
+    return √(a**2+b**2)
 end
 
 function pythag2(a,b)
