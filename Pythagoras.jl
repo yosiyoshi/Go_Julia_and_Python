@@ -2,15 +2,15 @@
 Author: Yoshiyosi
 """
 function pythag(a,b)
-    return √(a**2+b**2)
+    return √(a^2+b^2)
 end
 
 function pythag2(a,b)
     if a>=b
-        return √(a**2-b**2)
+        return √(a^2-b^2)
     end
     if a<b
-        return √(b**2-a**2)
+        return √(b^2-a^2)
     end
 end
 
