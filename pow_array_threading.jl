@@ -1,7 +1,7 @@
 """
 Created on Wed Oct 24 11:29:07 2018
 
-@author: user
+@author: Yosiyoshi
 """
 function pow_array(n)
     n^2
